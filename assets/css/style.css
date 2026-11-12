@@ -1,0 +1,56 @@
+:root {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
